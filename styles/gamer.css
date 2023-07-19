@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+
+body {
+    font-family: 'Work Sans', sans-serif;
+
+}
+
 * {
     box-sizing: border-box;
 }
@@ -16,39 +23,55 @@ nav {
 
 }
 
-.logo-container  {
+.logo-container {
     width: 50%;
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     align-items: center;
 }
-.logo-container img{
+
+
+.logo-container img {
     width: 90px;
     height: 40px;
     margin-right: 20px;
 }
-.logo-container p{
-    font-size: 2.5rem;
+
+.logo-container p {
+    font-size: 3rem;
+    font-weight: 700;
+}
+.icon-section {
+    color: #FF42A5;
 }
 
 .nav-items-container {
     width: 50%;
     display: flex;
-    justify-content: end ;
+    justify-content: end;
     gap: 32px;
     align-items: center;
     margin-right: 30px;
-  
+
 }
 
 .nav-items-container a {
     text-decoration: none;
-    font-size: 1rem;
+    font-size: 1.125rem;
     color: #3C354F;
+    font-weight: 500;
 
 }
+.follow-us-btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 10px 24px ;
+    display: flex;
+    align-items: center;
 
-.icon-section{
-    color: #FF42A5;
-    
 }
+.fa-brands{
+    font-size: 35px;
+    margin-left: 20px;
+}
+
