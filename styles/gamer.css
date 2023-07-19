@@ -10,170 +10,220 @@ body {
 }
 
 /* shareable styles */
-
-.btn-primary {
-    border-radius: 48px;
-    background-color: #FF42A5;
-    color: #110d0d;
-
-}
-
-.btn-secondary {
-    border-radius: 48px;
-    background: #4EC5F7;
-
-}
-
-
-
-
-
-
-nav {
-    background-color: #FFFFFF;
-}
-
-.nav-container {
-    min-height: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    max-width: 1400px;
-    margin: 0 auto;
-
-}
-
-.logo-container {
-    width: 50%;
-    /* border: 1px solid green; */
-    display: flex;
-    align-items: center;
-}
-
-
-.logo-container img {
-    width: 90px;
-    height: 40px;
-    margin-right: 20px;
-}
-
-.logo-container p {
+.title-text {
     font-size: 3rem;
     font-weight: 700;
 }
 
-.icon-section {
-    color: #FF42A5;
-}
-
-.nav-items-container {
-    width: 50%;
-    display: flex;
-    justify-content: end;
-    gap: 32px;
-    align-items: center;
-    margin-right: 30px;
-
-}
-
-.nav-items-container a {
-    text-decoration: none;
-    font-size: 1.125rem;
-    color: #3C354F;
-    font-weight: 500;
-
-}
-
-.follow-us-btn {
-    border-radius: 8px;
-    background: rgba(11, 2, 35, 0.10);
-    padding: 10px 24px;
-    display: flex;
-    align-items: center;
-
-}
-
-.fa-brands {
-    font-size: 35px;
-    margin-left: 20px;
-}
-
-/* banner design start from here */
-.banner-container {
-    background-color: #FAF7FD;
-    /* border: 5px solid red; */
-    min-height: 50px;
-    max-width: 1400px;
-    margin: 0 auto;
-    display: flex;
-
-}
-
-
-.banner-text {
-    /* border: 2px solid black; */
-    width: 50%;
-    text-align: center;
-    margin-top: 100px;
-}
-
-.play-like {
-    color: #0B0223;
-    /* text-align: center; */
-    font-size: 3rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 0px;
-}
-
-.goat {
+.title-text-colorful {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    font-size: 5.9rem;
-    font-weight: 800;
-    line-height: normal;
-    text-transform: uppercase;
-    margin-top: 5px;
-    margin-bottom: 5px;
+   font-size: 3rem;
+   font-weight: 700;
 }
 
-.banner-text>a {
-    text-decoration: none;
-    color: #534C64;
-    font-weight: 500;
-    display: flex;
-    padding-left: 170px;
+
+    .btn-primary {
+        border-radius: 48px;
+        background-color: #FF42A5;
+        color: #110d0d;
+
     }
 
-.btn-banner {
-    padding: 20px;
-    display: flex;
-    border: 0;
-    justify-content: center;
-    gap: 25px;
-    text-decoration: none;
-    margin-right: 150px;
-}
+    .btn-secondary {
+        border-radius: 48px;
+        background: #4EC5F7;
 
-.btn-banner a {
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px 20px;
-   
-}
+    }
 
-.fa-solid {
-    margin-right: 12px;
-    color: #F948B2;
-}
 
-.banner-img {
-    border: 2px solid blue;
-    width: 50%;
-    /* min-height: 100px; */
-}
-.img-banner{
-    width: 100%;
-}
+
+
+
+
+    nav {
+        background-color: #FFFFFF;
+    }
+
+    .nav-container {
+        min-height: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        max-width: 1400px;
+        margin: 0 auto;
+
+    }
+
+    .logo-container {
+        width: 50%;
+        /* border: 1px solid green; */
+        display: flex;
+        align-items: center;
+    }
+
+
+    .logo-container img {
+        width: 90px;
+        height: 40px;
+        margin-right: 20px;
+    }
+
+    .logo-container p {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    .icon-section {
+        color: #FF42A5;
+    }
+
+    .nav-items-container {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        gap: 32px;
+        align-items: center;
+        margin-right: 30px;
+
+    }
+
+    .nav-items-container a {
+        text-decoration: none;
+        font-size: 1.125rem;
+        color: #3C354F;
+        font-weight: 500;
+
+    }
+
+    .follow-us-btn {
+        border-radius: 8px;
+        background: rgba(11, 2, 35, 0.10);
+        padding: 10px 24px;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .fa-brands {
+        font-size: 35px;
+        margin-left: 20px;
+    }
+
+    /* banner design start from here */
+    .banner-container {
+        background-color: #FAF7FD;
+        /* border: 5px solid red; */
+        min-height: 50px;
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+
+    }
+
+
+    .banner-text {
+        /* border: 2px solid black; */
+        width: 50%;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .play-like {
+        color: #0B0223;
+        /* text-align: center; */
+        font-size: 3rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        margin-bottom: 0px;
+    }
+
+    .goat {
+        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 5.9rem;
+        font-weight: 800;
+        line-height: normal;
+        text-transform: uppercase;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .banner-text>a {
+        text-decoration: none;
+        color: #534C64;
+        font-weight: 500;
+        display: flex;
+        padding-left: 170px;
+    }
+
+    .btn-banner {
+        padding: 20px;
+        display: flex;
+        border: 0;
+        justify-content: center;
+        gap: 25px;
+        text-decoration: none;
+        margin-right: 150px;
+    }
+
+    .btn-banner a {
+        text-decoration: none;
+        font-size: 20px;
+        padding: 10px 20px;
+
+    }
+
+    .fa-solid {
+        margin-right: 12px;
+        color: #F948B2;
+    }
+
+    .banner-img {
+        border: 2px solid blue;
+        width: 50%;
+        /* min-height: 100px; */
+    }
+
+    .img-banner {
+        width: 100%;
+    }
+
+    /* banner section ends here */
+
+    /* online game design start */
+    .online-game-text {
+        text-align: center;
+    }
+    .online-game-text p{
+        color: #534C64;
+        font-size: 1.125m;
+    }
+    .box{ 
+        width: 300px;
+        height: 400px;
+       
+    }
+    .box p{
+        padding:10px;
+        width: 300px;
+        color: #534C64;
+        font-size: 18px;
+        text-align: center;
+    }
+    .card-image-1, .card-image-2, .card-image-3, .card-image-4{
+        width: 100%;
+    }
+    .box-container{
+        max-width: 1400px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+    }
+    /* online game design ends here */
+    
+    /* Play Instantly section design */
