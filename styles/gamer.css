@@ -101,7 +101,7 @@ nav {
 /* banner design start from here */
 .banner-container {
     background-color: #FAF7FD;
-    border: 5px solid red;
+    /* border: 5px solid red; */
     min-height: 50px;
     max-width: 1400px;
     margin: 0 auto;
@@ -111,9 +111,10 @@ nav {
 
 
 .banner-text {
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 50%;
     text-align: center;
+    margin-top: 100px;
 }
 
 .play-like {
@@ -144,7 +145,7 @@ nav {
     font-weight: 500;
     display: flex;
     padding-left: 170px;
-}
+    }
 
 .btn-banner {
     padding: 20px;
@@ -172,4 +173,7 @@ nav {
     border: 2px solid blue;
     width: 50%;
     /* min-height: 100px; */
+}
+.img-banner{
+    width: 100%;
 }
