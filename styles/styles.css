@@ -16,29 +16,31 @@ nav {
 
 }
 
-.logo-container  {
+.logo-container {
     width: 50%;
     border: 1px solid green;
     display: flex;
     align-items: center;
 }
-.logo-container img{
+
+.logo-container img {
     width: 90px;
     height: 40px;
     margin-right: 20px;
 }
-.logo-container p{
+
+.logo-container p {
     font-size: 2.5rem;
 }
 
 .nav-items-container {
     width: 50%;
     display: flex;
-    justify-content: end ;
+    justify-content: end;
     gap: 32px;
     align-items: center;
     margin-right: 30px;
-  
+
 }
 
 .nav-items-container a {
@@ -48,9 +50,42 @@ nav {
 
 }
 
-.icon-section{
+.icon-section {
     color: #FF42A5;
-    
+
 }
 
+/* ======================================== */
 
+.button-single {
+    display: flex;
+    align-items: center;
+
+}
+
+.button-single a {
+    text-decoration: none;
+    padding: 5px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.button-single a:hover {
+    background-color: transparent;
+    border: 1px solid #FFA3D3;
+    border-radius: 48px;
+    padding: 15px 20px;
+}
+
+.all-button {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    margin-top: 120px;
+
+}
